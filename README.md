@@ -1,4 +1,4 @@
 # selfcare-bot
 
-live at <a href="selfcare-bot.tumblr.com">@selfcare-bot</a>
+live at <a href="https://selfcare-bot.tumblr.com">@selfcare-bot</a>
 
