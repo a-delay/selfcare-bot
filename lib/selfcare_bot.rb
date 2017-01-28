@@ -1,13 +1,14 @@
 require 'tumblr_client'
-
+require_relative 'pw' # file containing api keys, etc.
 
 def post_a_thing
 	# Authenticate with OAuth
+	# keys stored in pw.rb
 	client = Tumblr::Client.new({
-	  :consumer_key => C_KEY, #consumer key
-	  :consumer_secret => C_SEC, #consumer secret
-	  :oauth_token => OAT, #oauth token
-	  :oauth_token_secret => OAT_SEC #oauth token secret
+	  :consumer_key => C_KEY, # consumer key
+	  :consumer_secret => C_SEC, # consumer secret
+	  :oauth_token => OAT, # oauth token
+	  :oauth_token_secret => OAT_SEC # oauth token secret
 	})
 
 	pleases = ["please",
