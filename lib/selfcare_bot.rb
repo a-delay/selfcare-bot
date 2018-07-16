@@ -89,11 +89,13 @@ def post_a_thing
 		   "stretch your legs"=> 3,
 		   "take your meds"=> 5,
 		   "rest your eyes"=> 5,
-		   "crack your knuckles"=> 3,
+		   "flex your fingers"=> 3,
 		   "ask for help if you need it"=> 6,
 		   "ask for help if you need it "=> 6,
 		   "laugh at something funny"=> 5,
-		   "watch a cat video"=> 5}
+		   "watch a cat video"=> 5,
+		   "look away from your screen for a while"=> 5,
+		   "relax and find something calm to think about"=> 4}
 	action = actions.keys.sample
 	tag = actiontags[actions[action]]
 
@@ -139,7 +141,10 @@ def post_a_thing
 		 "*with love and support*",
 		 "*a soft bird lands on your shoulder*",
 		 "times are rough but please take care of urself",
-		 "\u{1f3b6} *whistles a happy tune*"]
+		 "\u{1f3b6} *whistles a happy tune*",
+		 "a quick reminder!!!",
+		 "got a minute?",
+		 "welcome to the self-care zone"]
 	
 	emojis = ["\u{1f3b6}",
 		  "\u270c",
